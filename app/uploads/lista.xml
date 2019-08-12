@@ -1,0 +1,911 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Mario Wessen</Author>
+  <LastAuthor>Tv Globo</LastAuthor>
+  <Created>2019-06-11T01:30:20Z</Created>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12585</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="lista">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="142" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Alexandre Costa</Data></Cell>
+    <Cell><Data ss:Type="String">Aleixo Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">alexandre@aleixocomunicacao.com.br / alexandree.costa@hotmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Anderson Gouveia</Data></Cell>
+    <Cell><Data ss:Type="String">Aleixo Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">andersongouveia@globomail.com / andersongouveia@globomail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">Gabriela Melo</Data></Cell>
+    <Cell><Data ss:Type="String">Aleixo Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">gabriela@aleixocomunicacao.com.br / gabiimelo28@gmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">Lívia Carvalho</Data></Cell>
+    <Cell><Data ss:Type="String">Aleixo Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">livia@aleixocomunicacao.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">Italo Ferreira</Data></Cell>
+    <Cell><Data ss:Type="String">Aporte Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">titto@aporte.biz / </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">Maria Denis</Data></Cell>
+    <Cell><Data ss:Type="String">Aporte Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">mariadenis@aporte.biz /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">Elissandra Menezes</Data></Cell>
+    <Cell><Data ss:Type="String">Cordel Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">elissandra@cordelcomunicacao.com / elissandramn@gmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">Ricardo Nogueira</Data></Cell>
+    <Cell><Data ss:Type="String">Cordel Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">ricardo@cordelcomunicacao.com / dinho_fst3@hotmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">Camila Nunes</Data></Cell>
+    <Cell><Data ss:Type="String">Mkt da Auto Nunes</Data></Cell>
+    <Cell><Data ss:Type="String">camilla.nunes@gmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">Nilce Alves</Data></Cell>
+    <Cell><Data ss:Type="String">Makplan - Marketing e Planejamento</Data></Cell>
+    <Cell><Data ss:Type="String">nilce@makplan.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">Eclesio Batista</Data></Cell>
+    <Cell><Data ss:Type="String">C&amp;M Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">eclesiocem@gmail.com / </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">Margarida Cabral</Data></Cell>
+    <Cell><Data ss:Type="String">Urbana Comunicação 3861-7700 (não completa)</Data></Cell>
+    <Cell><Data ss:Type="String">midia@urbanacomunicacao.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">Welton Rodrigues</Data></Cell>
+    <Cell><Data ss:Type="String">Buzz Lab</Data></Cell>
+    <Cell><Data ss:Type="String">welton@buzzlab.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">José Porto</Data></Cell>
+    <Cell><Data ss:Type="String">JC Porto</Data></Cell>
+    <Cell><Data ss:Type="String">porto@credimoveisltda.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">Ângela Cardoso</Data></Cell>
+    <Cell><Data ss:Type="String">Trio Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">angela.triocomunica@gmail.com /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">Felipe Leão</Data></Cell>
+    <Cell><Data ss:Type="String">Propeg </Data></Cell>
+    <Cell><Data ss:Type="String">felipe.leao@propeg.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="String">Deysi Coelho</Data></Cell>
+    <Cell><Data ss:Type="String">Propeg</Data></Cell>
+    <Cell><Data ss:Type="String">deysi.coelho@propeg.com.br / </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="String">Juliana Azoubel</Data></Cell>
+    <Cell><Data ss:Type="String">Ideia 3 Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">azoubel.juliana@gmail.com julianaazoubel@ideia3.com.br</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="String">Claudia Trigueiro</Data></Cell>
+    <Cell><Data ss:Type="String">Agência UP999244461</Data></Cell>
+    <Cell><Data ss:Type="String">claudia@agenciaup.net /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="String">Carol Braga</Data></Cell>
+    <Cell><Data ss:Type="String">BG9</Data></Cell>
+    <Cell><Data ss:Type="String">digital.pfl1@bg9.com.br / carol.braga@bg9.com.br</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="String">Gabriela Madeiros</Data></Cell>
+    <Cell><Data ss:Type="String">BG9</Data></Cell>
+    <Cell><Data ss:Type="String">gabriela.medeiros@bg9.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">Naciara Figueredo</Data></Cell>
+    <Cell><Data ss:Type="String">BG9</Data></Cell>
+    <Cell><Data ss:Type="String">naciara.figueiredo@bg9.com.br / naciara_figueiredo@hotmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="String">Yvson Lima</Data></Cell>
+    <Cell><Data ss:Type="String">BG9</Data></Cell>
+    <Cell><Data ss:Type="String">yvson.lima@bg9.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="String">Bárbara Sales</Data></Cell>
+    <Cell><Data ss:Type="String">BG9(3224-5709)</Data></Cell>
+    <Cell><Data ss:Type="String">midiapfl1.bg9@gmail.com / </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="String">Gabrielle </Data></Cell>
+    <Cell><Data ss:Type="String">Blackninja</Data></Cell>
+    <Cell><Data ss:Type="String">gabrielle.barros@black.ninja /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="String">Rodrigo Rodrigues</Data></Cell>
+    <Cell><Data ss:Type="String">Blackninja</Data></Cell>
+    <Cell><Data ss:Type="String">rod@black.ninja / rodrigosrs@hotmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="String">Alessandra Matos</Data></Cell>
+    <Cell><Data ss:Type="String">BM4 Comunicação &amp; Markenting</Data></Cell>
+    <Cell><Data ss:Type="String">alessandra@bm4marketing.com.br </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell><Data ss:Type="String">Márcia Cristina</Data></Cell>
+    <Cell><Data ss:Type="String">Click Comunicação e Design</Data></Cell>
+    <Cell><Data ss:Type="String">midia@clickcomunicacao.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="String">Carla Tenório</Data></Cell>
+    <Cell><Data ss:Type="String">Elefante 3020-3890(não atende)</Data></Cell>
+    <Cell><Data ss:Type="String">carla@elefante.cc /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell><Data ss:Type="String">Sandra Costa Torreão</Data></Cell>
+    <Cell><Data ss:Type="String">Mart Pet Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">Sandra.torreao@martpet.com.br </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">Natália Lelis</Data></Cell>
+    <Cell><Data ss:Type="String">Match 3031-2727</Data></Cell>
+    <Cell><Data ss:Type="String">natalia.lelis@soumatch.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="String">Michelle Dohertty</Data></Cell>
+    <Cell><Data ss:Type="String">Melhor Comunicação 3032-3767(sempre ocupado)</Data></Cell>
+    <Cell><Data ss:Type="String">michelle@melhorcom.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="String">Dede Silva</Data></Cell>
+    <Cell><Data ss:Type="String">MV2 Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">midia@mv2online.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">Júlio Cesar Marinho</Data></Cell>
+    <Cell><Data ss:Type="String">MV2 Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">julio@mv2online.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">34</Data></Cell>
+    <Cell><Data ss:Type="String">Salete Max</Data></Cell>
+    <Cell><Data ss:Type="String">Paloma Publicidade Sem telefone</Data></Cell>
+    <Cell><Data ss:Type="String">salete.max@jacauna.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">Adriana Silva</Data></Cell>
+    <Cell><Data ss:Type="String">Sagaz Criatividade na Lata 3431-5567(não atende) 98847-9424</Data></Cell>
+    <Cell><Data ss:Type="String">adriana@criatividadenalata.com </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="String">Tiago Macena</Data></Cell>
+    <Cell><Data ss:Type="String">Shifty Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">tiago@shifty.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">37</Data></Cell>
+    <Cell><Data ss:Type="String">Priscila Sá</Data></Cell>
+    <Cell><Data ss:Type="String">Shifty Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">priscila@shifty.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="String">Veruska Ribeiro</Data></Cell>
+    <Cell><Data ss:Type="String">Hagua Estratégia e Comunicação 3878-8100(ocupado sempre)</Data></Cell>
+    <Cell><Data ss:Type="String">veruska@hagua.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">39</Data></Cell>
+    <Cell><Data ss:Type="String">Amanda Couto</Data></Cell>
+    <Cell><Data ss:Type="String">HSM Comunicação &amp; Marketing</Data></Cell>
+    <Cell><Data ss:Type="String">amanda@hsm-on.com.br / hsmmkt@gmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">Leila Bandeira</Data></Cell>
+    <Cell><Data ss:Type="String">M.M.S. Comunicação Integrada</Data></Cell>
+    <Cell><Data ss:Type="String">midia@mms.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell><Data ss:Type="String">Rúbia Bezerra dos Santos</Data></Cell>
+    <Cell><Data ss:Type="String">M3 Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">midia@m3comunicacao.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">42</Data></Cell>
+    <Cell><Data ss:Type="String">Karina Morais</Data></Cell>
+    <Cell><Data ss:Type="String">QI Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">karina.morais@qicom.com.br / </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43</Data></Cell>
+    <Cell><Data ss:Type="String">Mirella Araujo</Data></Cell>
+    <Cell><Data ss:Type="String">QI Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">mirella.araujo@qicom.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="String">Valeska Campos</Data></Cell>
+    <Cell><Data ss:Type="String">QI Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">valeska.campos@qicom.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="String">Keyla Guimaraes</Data></Cell>
+    <Cell><Data ss:Type="String">Raio Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">midia@raiocomunicacao.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="String">Gabriel Moitas</Data></Cell>
+    <Cell><Data ss:Type="String">Três Pontos Comunicação 3034-8226(não atende)</Data></Cell>
+    <Cell><Data ss:Type="String">gabriel@3pontos.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String">Robson Nunes</Data></Cell>
+    <Cell><Data ss:Type="String">Agência Extra 9 9954-8537</Data></Cell>
+    <Cell><Data ss:Type="String">adm@extracom.com.br / </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">48</Data></Cell>
+    <Cell><Data ss:Type="String">Carla Albuquerque</Data></Cell>
+    <Cell><Data ss:Type="String">Agência Silva &amp; Andrade</Data></Cell>
+    <Cell><Data ss:Type="String">carlamkt@csape.com.br </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">49</Data></Cell>
+    <Cell><Data ss:Type="String">Francisco Farias</Data></Cell>
+    <Cell><Data ss:Type="String">Agência Um</Data></Cell>
+    <Cell><Data ss:Type="String">francisco.farias@agenciaum.ag /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">Ana Paula Rocha</Data></Cell>
+    <Cell><Data ss:Type="String">Agência Um</Data></Cell>
+    <Cell><Data ss:Type="String">ana.rocha@agenciaum.ag / anapaulanrocha@hotmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">51</Data></Cell>
+    <Cell><Data ss:Type="String">Barbara Barros</Data></Cell>
+    <Cell><Data ss:Type="String">Agência Um</Data></Cell>
+    <Cell><Data ss:Type="String">barbara.barros@agenciaum.ag /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">52</Data></Cell>
+    <Cell><Data ss:Type="String">Cleyton Muniz</Data></Cell>
+    <Cell><Data ss:Type="String">Agência Um</Data></Cell>
+    <Cell><Data ss:Type="String">cleyton.muniz@agenciaum.ag / cleyton.cmuniiz@hotmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">53</Data></Cell>
+    <Cell><Data ss:Type="String">Breno Silvestre</Data></Cell>
+    <Cell><Data ss:Type="String">Agência Um</Data></Cell>
+    <Cell><Data ss:Type="String">breno.silvestre@agenciaum.ag /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">54</Data></Cell>
+    <Cell><Data ss:Type="String">Eyder Borges</Data></Cell>
+    <Cell><Data ss:Type="String">Agência Um</Data></Cell>
+    <Cell><Data ss:Type="String">eyder.borges@agenciaum.ag / eyderborges@gmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="String">Luana Phamela</Data></Cell>
+    <Cell><Data ss:Type="String">Agência Um</Data></Cell>
+    <Cell><Data ss:Type="String">luana.cintra@agenciaum.ag / </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell><Data ss:Type="String">Natália Araujo</Data></Cell>
+    <Cell><Data ss:Type="String">Agência Um</Data></Cell>
+    <Cell><Data ss:Type="String">natalia.lima@agenciaum.ag /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="String">Jéssica Regueira</Data></Cell>
+    <Cell><Data ss:Type="String">Agência Um</Data></Cell>
+    <Cell><Data ss:Type="String">jessica.regueira@agenciaum.ag /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="String">Késia Moura</Data></Cell>
+    <Cell><Data ss:Type="String">Agência Um</Data></Cell>
+    <Cell><Data ss:Type="String">kesia.moura@agenciaum.ag / kesiacarolina@msn.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">59</Data></Cell>
+    <Cell><Data ss:Type="String">Leonardo Aguiar</Data></Cell>
+    <Cell><Data ss:Type="String">Agência Um</Data></Cell>
+    <Cell><Data ss:Type="String">leonardo.aguiar@agenciaum.ag / leoeutimio@gmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="String">Barbara Sales</Data></Cell>
+    <Cell><Data ss:Type="String">Agência Um</Data></Cell>
+    <Cell><Data ss:Type="String">barbara.menezes@agenciaum.ag / marivalenca@gmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">61</Data></Cell>
+    <Cell><Data ss:Type="String">Rebeca Menezes</Data></Cell>
+    <Cell><Data ss:Type="String">Agência Um</Data></Cell>
+    <Cell><Data ss:Type="String">rebeca.menezes@agenciaum.ag / rebecamenezes06@hotmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">62</Data></Cell>
+    <Cell><Data ss:Type="String">Thiago Azevedo</Data></Cell>
+    <Cell><Data ss:Type="String">Agência Um</Data></Cell>
+    <Cell><Data ss:Type="String">thiago.azevedo@agenciaum.ag / thiagofilipeb@gmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">63</Data></Cell>
+    <Cell><Data ss:Type="String">Ana Clara Amorim</Data></Cell>
+    <Cell><Data ss:Type="String">Agência Um</Data></Cell>
+    <Cell><Data ss:Type="String">clara.amorim@agenciaum.ag</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">64</Data></Cell>
+    <Cell><Data ss:Type="String">Valeska França</Data></Cell>
+    <Cell><Data ss:Type="String">Agência Um</Data></Cell>
+    <Cell><Data ss:Type="String">valeska.franca@agenciaum.ag</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">65</Data></Cell>
+    <Cell><Data ss:Type="String">Jeffson Leocadio</Data></Cell>
+    <Cell><Data ss:Type="String">Agência Um</Data></Cell>
+    <Cell><Data ss:Type="String">jeffson.leocadio@agenciaum.ag</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">66</Data></Cell>
+    <Cell><Data ss:Type="String">Rayanne Sena</Data></Cell>
+    <Cell><Data ss:Type="String">Agência 220</Data></Cell>
+    <Cell><Data ss:Type="String">rayanne@agencia220.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">67</Data></Cell>
+    <Cell><Data ss:Type="String">Natália Siqueira</Data></Cell>
+    <Cell><Data ss:Type="String">Agência 220</Data></Cell>
+    <Cell><Data ss:Type="String">natalia@agencia220.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">68</Data></Cell>
+    <Cell><Data ss:Type="String">Rebeca Santos</Data></Cell>
+    <Cell><Data ss:Type="String">Agência 220</Data></Cell>
+    <Cell><Data ss:Type="String">rebeca.santos@agencia220.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">69</Data></Cell>
+    <Cell><Data ss:Type="String">Rossana Lira</Data></Cell>
+    <Cell><Data ss:Type="String">Agência 220</Data></Cell>
+    <Cell><Data ss:Type="String">rossana@agencia220.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="String">Alessandro Macedo</Data></Cell>
+    <Cell><Data ss:Type="String">Marta Lima Consultoria e Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">alessandro@martalima.com.br </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">71</Data></Cell>
+    <Cell><Data ss:Type="String">Fátima Rocha</Data></Cell>
+    <Cell><Data ss:Type="String">Marta Lima Consultoria e Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">fatinha@martalima.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">72</Data></Cell>
+    <Cell><Data ss:Type="String">Larissa Peres</Data></Cell>
+    <Cell><Data ss:Type="String">Marta Lima Consultoria e Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">larissa@martalima.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">73</Data></Cell>
+    <Cell><Data ss:Type="String">Marcela Alves</Data></Cell>
+    <Cell><Data ss:Type="String">Marta Lima Consultoria e Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">malves@martalima.com.br / marcela.ssalves@gmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">74</Data></Cell>
+    <Cell><Data ss:Type="String">Kika Saraiva</Data></Cell>
+    <Cell><Data ss:Type="String">Talk Comunicação 98141-8961</Data></Cell>
+    <Cell><Data ss:Type="String">kika@talkcom.net.br / saraivacristiana@gmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">Bruno Batista</Data></Cell>
+    <Cell><Data ss:Type="String">AB Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">bruno@comunicacaoab.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">76</Data></Cell>
+    <Cell><Data ss:Type="String">Mariana Cavalcanti</Data></Cell>
+    <Cell><Data ss:Type="String">Aliança Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">mariana@aliancacom.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">77</Data></Cell>
+    <Cell><Data ss:Type="String">Fernanda Sales</Data></Cell>
+    <Cell><Data ss:Type="String">Aliança Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">fernanda.sales@aliancacom.com.br / nandasalespe@hotmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">78</Data></Cell>
+    <Cell><Data ss:Type="String">Nathália Quirino</Data></Cell>
+    <Cell><Data ss:Type="String">Avesso</Data></Cell>
+    <Cell><Data ss:Type="String">avesso.comunicacao@globo.com /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">79</Data></Cell>
+    <Cell><Data ss:Type="String">Raphael Quirino</Data></Cell>
+    <Cell><Data ss:Type="String">Avesso</Data></Cell>
+    <Cell><Data ss:Type="String">raphael@avessocomunicacao.com.br / raphaelquirino@gmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="String">Bruna Pedrosa</Data></Cell>
+    <Cell><Data ss:Type="String">BPM Comunicação LTDA 3462-2100</Data></Cell>
+    <Cell><Data ss:Type="String">midia@bpmcomunicacao.com /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">81</Data></Cell>
+    <Cell><Data ss:Type="String">Paula Fernanda</Data></Cell>
+    <Cell><Data ss:Type="String">Casa Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">paula.fernanda@taemcasa.com.br / paulabezerra@hotmail.com.br</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">82</Data></Cell>
+    <Cell><Data ss:Type="String">Tony Clemente</Data></Cell>
+    <Cell><Data ss:Type="String">C Queiroz Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">tony@cqueiroz.com.br </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">83</Data></Cell>
+    <Cell><Data ss:Type="String">Eduarda Melo</Data></Cell>
+    <Cell><Data ss:Type="String">Criação 3 99964-7359</Data></Cell>
+    <Cell><Data ss:Type="String">dudamelovasconcelos@gmail.com /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">84</Data></Cell>
+    <Cell><Data ss:Type="String">Toni Azevedo</Data></Cell>
+    <Cell><Data ss:Type="String">Fishy Comunicação 3325-9389(ocupado sempre)</Data></Cell>
+    <Cell><Data ss:Type="String">toni@fish.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">85</Data></Cell>
+    <Cell><Data ss:Type="String">Ellen Delfino</Data></Cell>
+    <Cell><Data ss:Type="String">4 ways </Data></Cell>
+    <Cell><Data ss:Type="String">midiasocial2@agencia4ways.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">86</Data></Cell>
+    <Cell><Data ss:Type="String">Marcella Queiroga</Data></Cell>
+    <Cell><Data ss:Type="String">4 Ways</Data></Cell>
+    <Cell><Data ss:Type="String">midiasocial1@agencia4ways.com.br</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">87</Data></Cell>
+    <Cell><Data ss:Type="String">Tarcísio Acioli</Data></Cell>
+    <Cell><Data ss:Type="String">4 ways</Data></Cell>
+    <Cell><Data ss:Type="String">coordenacao@agencia4ways.com.br</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">88</Data></Cell>
+    <Cell><Data ss:Type="String">Íris Garbuglio</Data></Cell>
+    <Cell><Data ss:Type="String">4 ways</Data></Cell>
+    <Cell><Data ss:Type="String">midiasocial3@agencia4ways.com.br</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">89</Data></Cell>
+    <Cell><Data ss:Type="String">Roberto Cangello</Data></Cell>
+    <Cell><Data ss:Type="String">Novo Rumo</Data></Cell>
+    <Cell><Data ss:Type="String">cangellonovorumo@gmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="String">Caio Ferraz</Data></Cell>
+    <Cell><Data ss:Type="String">Plural</Data></Cell>
+    <Cell><Data ss:Type="String">caiofferraz@hotmail.com /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">91</Data></Cell>
+    <Cell><Data ss:Type="String">Leandro Uchôa</Data></Cell>
+    <Cell><Data ss:Type="String">Plural 99278-0767</Data></Cell>
+    <Cell><Data ss:Type="String">leandrouchoa@cgnplural.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">92</Data></Cell>
+    <Cell><Data ss:Type="String">Eduardo Duke</Data></Cell>
+    <Cell><Data ss:Type="String">Plural</Data></Cell>
+    <Cell><Data ss:Type="String">eduardoduke@cgnplural.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">93</Data></Cell>
+    <Cell><Data ss:Type="String">Telma mendes</Data></Cell>
+    <Cell><Data ss:Type="String">Sale Marketing</Data></Cell>
+    <Cell><Data ss:Type="String">telma@salemarketing.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">94</Data></Cell>
+    <Cell><Data ss:Type="String">Rodrigo Niceas</Data></Cell>
+    <Cell><Data ss:Type="String">Usi Mais Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">rodrigo@usimais.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">95</Data></Cell>
+    <Cell><Data ss:Type="String">Waldir Aracaty</Data></Cell>
+    <Cell><Data ss:Type="String">W S A comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">waldiraracaty@wsamkt.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">96</Data></Cell>
+    <Cell><Data ss:Type="String">Pedro Neu</Data></Cell>
+    <Cell><Data ss:Type="String">Barbearia</Data></Cell>
+    <Cell><Data ss:Type="String">pedroneu@barbearia.ag /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">97</Data></Cell>
+    <Cell><Data ss:Type="String">Augusto Cesar</Data></Cell>
+    <Cell><Data ss:Type="String">Bold Comunicação Estratégica</Data></Cell>
+    <Cell><Data ss:Type="String">augusto@boldcomunicacao.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">98</Data></Cell>
+    <Cell><Data ss:Type="String">Beatriz Milet</Data></Cell>
+    <Cell><Data ss:Type="String">Bold Comunicação Estratégica</Data></Cell>
+    <Cell><Data ss:Type="String">beatriz.milet@boldcomunicacao.com.br </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">99</Data></Cell>
+    <Cell><Data ss:Type="String">Juliana Dantas</Data></Cell>
+    <Cell><Data ss:Type="String">DA/DPA - CDF Design e Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">juliana.dantas@da-dpa.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">Fábio Henrique</Data></Cell>
+    <Cell><Data ss:Type="String">DA/DPA - CDF Design e Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">fabio@da-dpa.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">101</Data></Cell>
+    <Cell><Data ss:Type="String">Clarissa Borges</Data></Cell>
+    <Cell><Data ss:Type="String">Destak Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">clarissaborges.destak@gmail.com /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">102</Data></Cell>
+    <Cell><Data ss:Type="String">Vanessa Gazatte</Data></Cell>
+    <Cell><Data ss:Type="String">Dois Comunicação 3032-6767</Data></Cell>
+    <Cell><Data ss:Type="String">vanessa@dois.ag /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">103</Data></Cell>
+    <Cell><Data ss:Type="String">Bruno Battaglia Dias José</Data></Cell>
+    <Cell><Data ss:Type="String">Exata Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">brunodias@exactacomunicacao.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">104</Data></Cell>
+    <Cell><Data ss:Type="String">Geraldo Manoel</Data></Cell>
+    <Cell><Data ss:Type="String">Íris Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">geraldo@agenciairis.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell><Data ss:Type="String">Gabriel Jucá</Data></Cell>
+    <Cell><Data ss:Type="String">Íris Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">gabriel@agenciairis.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">106</Data></Cell>
+    <Cell><Data ss:Type="String">Viviane Buarque</Data></Cell>
+    <Cell><Data ss:Type="String">Íris Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">viviane@agenciairis.com.br / </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">107</Data></Cell>
+    <Cell><Data ss:Type="String">Michelle Dantas</Data></Cell>
+    <Cell><Data ss:Type="String">Italobianchi</Data></Cell>
+    <Cell><Data ss:Type="String">michelle@italobianchi.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">108</Data></Cell>
+    <Cell><Data ss:Type="String">Nathália Neri</Data></Cell>
+    <Cell><Data ss:Type="String">Italobianchi</Data></Cell>
+    <Cell><Data ss:Type="String">nathalia@italobianchi.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">109</Data></Cell>
+    <Cell><Data ss:Type="String">Eduardo Monteiro</Data></Cell>
+    <Cell><Data ss:Type="String">Italobianchi</Data></Cell>
+    <Cell><Data ss:Type="String">eduardo@italobianchi.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">110</Data></Cell>
+    <Cell><Data ss:Type="String">Carol</Data></Cell>
+    <Cell><Data ss:Type="String">Italobianchi</Data></Cell>
+    <Cell><Data ss:Type="String">carol@italobianchi.com.br</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">111</Data></Cell>
+    <Cell><Data ss:Type="String">Natália Gadelha</Data></Cell>
+    <Cell><Data ss:Type="String">Meta 4 3038-8562(sempre ocupado)</Data></Cell>
+    <Cell><Data ss:Type="String">natalia_gadelha85@hotmail.com /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">112</Data></Cell>
+    <Cell><Data ss:Type="String">Claudia Gusmão</Data></Cell>
+    <Cell><Data ss:Type="String">O2 Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">claudia@o2comunicacao.net.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">113</Data></Cell>
+    <Cell><Data ss:Type="String">Carlos André</Data></Cell>
+    <Cell><Data ss:Type="String">Ópera Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">andre@agenciaopera.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">114</Data></Cell>
+    <Cell><Data ss:Type="String">Carlos Eduardo</Data></Cell>
+    <Cell><Data ss:Type="String">Ópera Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">carlos@agenciaopera.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">115</Data></Cell>
+    <Cell><Data ss:Type="String">Thiago Pereira</Data></Cell>
+    <Cell><Data ss:Type="String">Ópera Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">thiago@agenciaopera.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">116</Data></Cell>
+    <Cell><Data ss:Type="String">Arthur Reis </Data></Cell>
+    <Cell><Data ss:Type="String">Ópera Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">tuca@agenciaopera.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">117</Data></Cell>
+    <Cell><Data ss:Type="String">Daniel Borges</Data></Cell>
+    <Cell><Data ss:Type="String">Ópera Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">daniel@agenciaopera.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">118</Data></Cell>
+    <Cell><Data ss:Type="String">Felipe Padilha</Data></Cell>
+    <Cell><Data ss:Type="String">Ópera Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">felipe@agenciaopera.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">119</Data></Cell>
+    <Cell><Data ss:Type="String">Renata Moura</Data></Cell>
+    <Cell><Data ss:Type="String">XP Propaganda</Data></Cell>
+    <Cell><Data ss:Type="String">renata@agenciaxp.com.br / renata_moura_@hotmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="String">Hellen Oliveira</Data></Cell>
+    <Cell><Data ss:Type="String">XP Propaganda</Data></Cell>
+    <Cell><Data ss:Type="String">hellen@agenciaxp.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">121</Data></Cell>
+    <Cell><Data ss:Type="String">Douglas Silva</Data></Cell>
+    <Cell><Data ss:Type="String">Doze Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">dsilva@dozecomunicacao.rec.br</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">122</Data></Cell>
+    <Cell><Data ss:Type="String">Isabel Ribeiro</Data></Cell>
+    <Cell><Data ss:Type="String">Mid Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">isabel@midcomunicacao.com.br</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">123</Data></Cell>
+    <Cell><Data ss:Type="String">Carla Milena</Data></Cell>
+    <Cell><Data ss:Type="String">Impacto Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">carlamilena@impactocomunic.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">124</Data></Cell>
+    <Cell><Data ss:Type="String">Carolina Leal</Data></Cell>
+    <Cell><Data ss:Type="String">Linck Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">contato@blacklambcomunicacao.com.br</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">125</Data></Cell>
+    <Cell><Data ss:Type="String">Rafael Menezes</Data></Cell>
+    <Cell><Data ss:Type="String">Ôpa Ideias </Data></Cell>
+    <Cell><Data ss:Type="String">rafael@opaideias.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">126</Data></Cell>
+    <Cell><Data ss:Type="String">Leninha</Data></Cell>
+    <Cell><Data ss:Type="String">Pomar de Ideias Comunicação</Data></Cell>
+    <Cell><Data ss:Type="String">leninhamidia@gmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">127</Data></Cell>
+    <Cell><Data ss:Type="String">Ulisses Andrade</Data></Cell>
+    <Cell><Data ss:Type="String">LCM Comunicação Integrada</Data></Cell>
+    <Cell><Data ss:Type="String">lcmbrasil.com@gmail.com / </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">128</Data></Cell>
+    <Cell><Data ss:Type="String">Fred Teixeira</Data></Cell>
+    <Cell><Data ss:Type="String">Ampla</Data></Cell>
+    <Cell><Data ss:Type="String">fred.teixeira@ampla.com.br </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">129</Data></Cell>
+    <Cell><Data ss:Type="String">Diogenes Macedo</Data></Cell>
+    <Cell><Data ss:Type="String">Ampla</Data></Cell>
+    <Cell><Data ss:Type="String">diogenes.macedo@ampla.com.br / diogenesfmacedo@gmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">130</Data></Cell>
+    <Cell><Data ss:Type="String">Débora Negromonte</Data></Cell>
+    <Cell><Data ss:Type="String">Ampla</Data></Cell>
+    <Cell><Data ss:Type="String">debora.negromonte@ampla.com.br / dbnegromonte@hotmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">131</Data></Cell>
+    <Cell><Data ss:Type="String">Jaime Amorim</Data></Cell>
+    <Cell><Data ss:Type="String">Ampla</Data></Cell>
+    <Cell><Data ss:Type="String">jaime.amorim@ampla.com.br / jaimeamorim.j@gmail.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">132</Data></Cell>
+    <Cell><Data ss:Type="String">Sissy Martins</Data></Cell>
+    <Cell><Data ss:Type="String">Ampla</Data></Cell>
+    <Cell><Data ss:Type="String">sissy.martins@ampla.com.br / </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">133</Data></Cell>
+    <Cell><Data ss:Type="String">Nilson Samico</Data></Cell>
+    <Cell><Data ss:Type="String">Ampla</Data></Cell>
+    <Cell><Data ss:Type="String">nilson.samico@ampla.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">134</Data></Cell>
+    <Cell><Data ss:Type="String">Wilton Leal</Data></Cell>
+    <Cell><Data ss:Type="String">Ampla</Data></Cell>
+    <Cell><Data ss:Type="String">wilton.leal@ampla.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">135</Data></Cell>
+    <Cell><Data ss:Type="String">Thais Rodrigues</Data></Cell>
+    <Cell><Data ss:Type="String">Ampla</Data></Cell>
+    <Cell><Data ss:Type="String">thais.rodrigues@ampla.com.br / </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">136</Data></Cell>
+    <Cell><Data ss:Type="String">Bruno Paiva</Data></Cell>
+    <Cell><Data ss:Type="String">EMÍDIA</Data></Cell>
+    <Cell><Data ss:Type="String">bruno.paiva@emidiapubli.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">137</Data></Cell>
+    <Cell><Data ss:Type="String">Delma Pessoa</Data></Cell>
+    <Cell><Data ss:Type="String">EMÍDIA</Data></Cell>
+    <Cell><Data ss:Type="String">delma.pessoa@emidiapubli.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">138</Data></Cell>
+    <Cell><Data ss:Type="String">Lívia Torres</Data></Cell>
+    <Cell><Data ss:Type="String">EMÍDIA</Data></Cell>
+    <Cell><Data ss:Type="String">lrenata@emidiapubli.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">139</Data></Cell>
+    <Cell><Data ss:Type="String">Mônica Mendes</Data></Cell>
+    <Cell><Data ss:Type="String">EMÍDIA</Data></Cell>
+    <Cell><Data ss:Type="String">mvaleria@emidiapubli.com.br /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">140</Data></Cell>
+    <Cell><Data ss:Type="String">Antônio Moreira</Data></Cell>
+    <Cell><Data ss:Type="String">Mídia 10 Comunicação &amp; Marketing</Data></Cell>
+    <Cell><Data ss:Type="String">moreira@midia10.net /</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">141</Data></Cell>
+    <Cell><Data ss:Type="String">Renata Santos</Data></Cell>
+    <Cell><Data ss:Type="String">Mídia 10 Comunicação &amp; Marketing</Data></Cell>
+    <Cell><Data ss:Type="String">renata@midia10.net /</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.31496062000000002"/>
+    <Footer x:Margin="0.31496062000000002"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.511811024"
+     x:Right="0.511811024" x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <Selected/>
+   <TopRowVisible>111</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
