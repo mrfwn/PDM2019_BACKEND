@@ -19,6 +19,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 import base64
+import glob
 
 
 class Contact:
@@ -148,7 +149,13 @@ class Contact:
             server.close()
 
     def clearList(self):
-        self.db.remove_all_data()
+        fileList = glob.glob(self.INVITE_FOLDER+"*.png")
+        for filePath in fileList:
+            try:
+                os.remove(filePath)
+            except:
+                print("Error while deleting file: ", filePath)
+        # self.db.remove_all_data()
 
     def countPresence(self):
         presence = {
