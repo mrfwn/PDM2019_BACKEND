@@ -9,7 +9,7 @@
 ########################################################
 '''
 from app import app
-from flask import Flask, render_template, url_for, redirect
+from flask import Flask, render_template, url_for, redirect, request
 from flask_wtf import FlaskForm
 from flask_wtf import Form
 from werkzeug.utils import secure_filename
@@ -34,14 +34,30 @@ def home():
     return render_template('home_template.html', presence=presence, agencyCount=agencyCount, agencys=contacts.agencys)
 
 
-@app.route('/upload', methods=['GET', 'POST'])
+@app.route('/teste', methods=['POST'])
+def teste():
+    print("TESTE")
+    form = UploadForm()
+    return render_template('upload_template.html', form=form)
+
+
+@app.route('/upload', methods=['GET', 'POST', 'DELETE'])
 def upload():
+    if request.method == "DELETE":
+        print("DELETE")
+        contacts = Contact()
+        contacts.clearList()
     form = UploadForm()
     if form.validate_on_submit():
-        filename = secure_filename(form.file.data.filename)
-        form.file.data.save('app/uploads/' + filename)
-        contacts = Contact()
-        contacts.loadList(filename)
+        if(form.file.data):
+            filename = secure_filename(form.file.data.filename)
+            form.file.data.save('app/uploads/' + filename)
+            contacts = Contact()
+            contacts.loadList(filename)
+        else:
+            code = 400
+            msg = 'Arquivo vázio'
+            return msg, code
         return redirect(url_for('upload'))
     return render_template('upload_template.html', form=form)
 
@@ -54,16 +70,6 @@ def invit():
         contacts.generateInvit()
         return redirect(url_for('invit'))
     return render_template('generate_invitation.html', form=form)
-
-
-@app.route('/clear', methods=['GET', 'POST'])
-def clear():
-    form = UploadForm()
-    if form.validate_on_submit():
-        contacts = Contact()
-        contacts.clearList()
-        return redirect(url_for('clear'))
-    return render_template('clearlist_template.html', form=form)
 
 
 @app.route('/preemail', methods=['GET', 'POST'])
