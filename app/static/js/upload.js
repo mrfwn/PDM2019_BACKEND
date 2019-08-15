@@ -1,46 +1,44 @@
 $(document).ready(function() {
+  $("form").on("submit", function(event) {
+    event.preventDefault();
 
-    $('form').on('submit', function(event) {
+    var formData = new FormData($("form")[0]);
 
-        event.preventDefault();
+    $.ajax({
+      xhr: function() {
+        var xhr = new window.XMLHttpRequest();
 
-        var formData = new FormData($('form')[0]);
+        xhr.upload.addEventListener("progress", function(e) {
+          if (e.lengthComputable) {
+            console.log("Bytes Loaded: " + e.loaded);
+            console.log("Total Size: " + e.total);
+            console.log("Percentage Uploaded: " + e.loaded / e.total);
 
-        $.ajax({
-            xhr: function() {
-                var xhr = new window.XMLHttpRequest();
+            var percent = Math.round((e.loaded / e.total) * 100);
 
-                xhr.upload.addEventListener('progress', function(e) {
-
-                    if (e.lengthComputable) {
-
-                        console.log('Bytes Loaded: ' + e.loaded);
-                        console.log('Total Size: ' + e.total);
-                        console.log('Percentage Uploaded: ' + (e.loaded / e.total))
-
-                        var percent = Math.round((e.loaded / e.total) * 100);
-
-                        $('#progressBar').attr('aria-valuenow', percent).css('width', percent + '%').text(percent + '%');
-
-                    }
-
-                });
-
-                return xhr;
-            },
-            type: 'POST',
-            url: '/upload',
-            data: formData,
-            processData: false,
-            contentType: false,
-            success: function() {
-                setTimeout(() => {
-                    alert("Lista Carregada!");
-                    location.reload();
-                }, 1500);
-            }
+            $("#progressBar")
+              .attr("aria-valuenow", percent)
+              .css("width", percent + "%")
+              .text(percent + "%");
+          }
         });
 
+        return xhr;
+      },
+      type: "POST",
+      url: "/upload",
+      data: formData,
+      processData: false,
+      contentType: false,
+      success: function() {
+        setTimeout(() => {
+          alert("Lista Carregada!");
+          location.reload();
+        }, 1500);
+      },
+      error: function(error) {
+        alert("Arquivo não selecionado ou fora do padrão!");
+      }
     });
-
+  });
 });
