@@ -61,17 +61,6 @@ def upload():
         return redirect(url_for('upload'))
     return render_template('upload_template.html', form=form)
 
-
-@app.route('/invit', methods=['GET', 'POST'])
-def invit():
-    form = UploadForm()
-    if form.validate_on_submit():
-        contacts = Contact()
-        contacts.generateInvit()
-        return redirect(url_for('invit'))
-    return render_template('generate_invitation.html', form=form)
-
-
 @app.route('/preemail', methods=['GET', 'POST'])
 def preemail():
     form = UploadForm()
@@ -88,6 +77,7 @@ def email():
     form = UploadForm()
     if form.validate_on_submit():
         email = Contact()
+        email.generateInvit()
         email.sendEmail(form.email.data, form.password.data)
         return redirect(url_for('email'))
     return render_template('sendEmail_template.html', form=form)
