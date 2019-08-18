@@ -1,0 +1,31 @@
+{   
+    contacts:{
+        hash:{
+                name:"",
+                emails:[],
+                cel:[],
+                sex:"",
+                enterprise:""
+        }
+    },
+    user:{	
+        hash:{
+            name: "",
+            type: "",
+            email:"",
+            login:"",
+            pass:"",
+            sector:"",
+            eventID:[hashEvent]
+        }
+    },
+    event:{
+        hash:{
+            contactsList:[hashContact],
+            title:"",
+            imgBase:"",
+            imgAppBase:""
+
+        }
+    }
+}

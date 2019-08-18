@@ -1,0 +1,61 @@
+{% extends "base_template.html" %} {% block conteudo %}
+
+<!--################################################################-->
+
+<link rel="stylesheet" href="{{ url_for('static', filename='graphics/fonts/font-roboto.css')}}">
+<link rel="stylesheet" href="{{ url_for('static', filename='graphics/font-awesome/css/font-awesome.min.css')}}">
+<link rel="stylesheet" href="{{ url_for('static', filename='graphics/web-analytics/style.css')}}">
+
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="{{ url_for('static', filename='graphics/bootstrap/bootstrap4-alpha3.min.css')}}">
+<link rel="stylesheet" href="{{ url_for('static', filename='graphics/index.css')}}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/home_style.css')}}">
+<!-- Scripts -->
+<script src="{{ url_for('static', filename='graphics/Chart.bundle.js')}}"></script>
+<script src="{{ url_for('static', filename='graphics/utils.js')}}"></script>
+<script src="{{ url_for('static', filename='graphics/jquery/jquery-3.1.0.min.js')}}"></script>
+<script src="{{ url_for('static', filename='graphics/tether/tether.min.js')}}"></script>
+<script src="{{ url_for('static', filename='graphics/bootstrap/bootstrap4-alpha3.min.js')}}"></script>
+<script src="{{ url_for('static', filename='graphics/canvasjs.min.js')}}"></script>
+<script src="{{ url_for('static', filename='graphics/gauge.min.js')}}"></script>
+<script src="{{ url_for('static', filename='js/home.js')}}"></script>
+<script src="{{ url_for('static', filename='js/Chart.min.js')}}"></script>
+<!--################################################################-->
+<div class="col-lg-12 homeStyle">
+    <h2 id="header"><strong>Informações</strong></h2>
+    <h4 class="col-lg-9">Presentes: {{presence['presence']}}</h5>
+        <h4 class="col-lg-3">Faltantes: {{presence['fault']}}</h5>
+            <canvas id="chart" class="col-lg-12" height="100" ></canvas>
+</div>
+<script>
+    Chart.defaults.global.defaultColor
+    var barData = {
+        labels: [{% for item in agencys %}"{{item}}",{% endfor %}],
+        datasets: [{
+            label : "Convidados/Agência",
+
+            fillColor: "rgba(151,187,205,0.2)",
+
+            strokeColor: "rgba(151,187,205,1)",
+
+            pointColor: "rgba(151,187,205,1)",
+
+            data: [{% for item in agencyCount %}{{item}},{% endfor %}]
+        }]
+    }
+    var mychart = document.getElementById("chart").getContext("2d");
+    steps = 10
+    max = 20
+    new Chart(mychart).Bar(barData, {
+        scaleOverride: true,
+        scaleSteps: steps,
+        scaleStepWidth: Math.ceil(max / steps),
+        scaleStartValue: 0,
+        scaleShowVerticalLines: true,
+        scaleShowGridLines: true,
+        barShowStroke: true,
+        scaleShowLabels: true
+    });
+</script>
+{% endblock conteudo %}

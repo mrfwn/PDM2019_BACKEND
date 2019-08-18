@@ -1,0 +1,14 @@
+.emailFieldstyle {
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.passwordFieldstyle {
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.btnSendEmail {
+    margin-left: 200px;
+    size: 20px;
+}
