@@ -16,13 +16,12 @@ from werkzeug.utils import secure_filename
 from flask_wtf.file import FileField
 from wtforms import StringField, PasswordField
 from app.services.contact_service import Contact
-
+from flask import jsonify
 
 class UploadForm(FlaskForm):
     email = StringField('Email')
     password = PasswordField('Senha')
     file = FileField()
-
 
 @app.route("/index")
 @app.route("/")
@@ -33,51 +32,65 @@ def home():
     agencyCount = contacts.countAgence()
     return render_template('home_template.html', presence=presence, agencyCount=agencyCount, agencys=contacts.agencys)
 
-
-@app.route('/teste', methods=['POST'])
-def teste():
-    print("TESTE")
-    form = UploadForm()
-    return render_template('upload_template.html', form=form)
-
-
 @app.route('/upload', methods=['GET', 'POST', 'DELETE'])
 def upload():
+    alert = None
+    contacts = Contact()
+    obj = contacts.getListUser()
     if request.method == "DELETE":
-        print("DELETE")
         contacts = Contact()
         contacts.clearList()
     form = UploadForm()
     if form.validate_on_submit():
-        if(form.file.data):
-            filename = secure_filename(form.file.data.filename)
-            form.file.data.save('app/uploads/' + filename)
+        my_id = request.form.get("my_id","")
+        if my_id == "1":
+            if(form.file.data):
+                filename = secure_filename(form.file.data.filename)
+                form.file.data.save('app/uploads/' + filename)
+                contacts = Contact()
+                contacts.loadList(filename)
+                alert = True
+            else:
+                alert = False
+                code = 400
+                msg = 'Arquivo vázio'
+                return msg, code
+            #return redirect(url_for('upload'))
+            return render_template('list_template.html',my_id=my_id, form=form,obj=obj,alert=alert)
+        elif my_id == "2":
+            email = Contact()
             contacts = Contact()
-            contacts.loadList(filename)
-        else:
-            code = 400
-            msg = 'Arquivo vázio'
-            return msg, code
-        return redirect(url_for('upload'))
-    return render_template('upload_template.html', form=form)
+            #contacts.generateInvit()
+            try:
+              email.sendEmail()
+              alert = True
+            except:
+              alert = False
+            #return redirect(url_for('upload'))
+            return render_template('list_template.html',my_id=my_id, form=form,obj=obj,alert=alert)
+        elif my_id == "3":
+            contacts = Contact()
+            contacts.clearList()
+            alert = True
+            #return redirect(url_for('upload'))
+            return render_template('list_template.html',my_id=my_id, form=form,obj=obj,alert=alert)
+    return render_template('list_template.html', form=form,obj=obj,alert=alert)
 
-@app.route('/preemail', methods=['GET', 'POST'])
-def preemail():
+@app.route('/lista', methods=['GET', 'POST'])
+def lista():
     form = UploadForm()
+    contacts = Contact()
+    obj = contacts.getListUser()
     if form.validate_on_submit():
         email = Contact()
-        email.sendEmailWithoutQR(form.email.data, form.password.data)
-        print("Entrou aq")
-        return redirect(url_for('preemail'))
-    return render_template('sendPreEmail_template.html', form=form)
+        contacts = Contact()
+        contacts.generateInvit()
+        email.sendEmail()
+        return redirect(url_for('lista'))
+    return render_template('list_template.html', form=form,obj=obj)
 
-
-@app.route('/email', methods=['GET', 'POST'])
-def email():
-    form = UploadForm()
-    if form.validate_on_submit():
-        email = Contact()
-        email.generateInvit()
-        email.sendEmail(form.email.data, form.password.data)
-        return redirect(url_for('email'))
-    return render_template('sendEmail_template.html', form=form)
+@app.route('/json', methods=['GET', 'POST'])
+def json():
+    contacts = Contact()
+    obj = contacts.getListUser()
+    return jsonify(obj)

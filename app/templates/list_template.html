@@ -1,0 +1,138 @@
+{% extends "base_template.html" %} {% block conteudo %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap-table.min.css')}}" />
+<link rel="stylesheet" href="{{ url_for('static', filename='css/all.css')}}" />
+<script src="{{ url_for('static', filename='js/tableExport.min.js')}}"></script>
+<script src="{{ url_for('static', filename='js/bootstrap-table.min.js')}}"></script>
+<script src="{{ url_for('static', filename='js/bootstrap-table-locale-all.min.js')}}"></script>
+<script src="{{ url_for('static', filename='js/bootstrap-table-export.min.js')}}"></script>
+<script src="{{ url_for('static', filename='js/sweetalert.min.js')}}"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/list_style.css')}}" />
+
+   
+<div class="line_row list">  
+    <!--
+    <div class="select" >
+        <select class="form-control" id="locale" >
+            <option value="en-US">en-US</option>
+            <option value="pt-BR" selected>pt-BR</option>
+        </select>
+    </div>
+    -->
+
+    <table
+    id="table"
+    data-toolbar="#toolbar"
+    data-search="true"
+    data-show-refresh="true"
+    data-show-toggle="true"
+    data-show-fullscreen="true"
+    data-show-columns="true"
+    data-detail-view="true"
+    data-show-export="true"
+    data-click-to-select="true"
+    data-detail-formatter="detailFormatter"
+    data-minimum-count-columns="1"
+    data-show-pagination-switch="true"
+    data-pagination="true"
+    data-id-field="id"
+    data-page-list="[10, 25, 50, 100, all]"
+    data-show-footer="true"
+    data-side-pagination="server"
+    data-url= "http://localhost:5000/json"
+    data-response-handler="responseHandler">
+    </table>
+
+    <div id="toolbar">
+       
+        <button  type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal3" data-whatever="@mdo" >Deletar Seleção</button>
+
+        <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Deseja realmente excluir todos convidados?</h5>
+                    </div>
+                    <div class="modal-body">
+                        <form  class="form-inline" method="POST" enctype="multipart/form-data">
+                            <input value = "3" type="hidden" name="my_id">
+                            {{ form.hidden_tag() }} 
+                            <input  value="Excluir" type="submit" class="col-lg-2 btn btn-danger" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Carregar Lista</button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Carregar Lista</h5>
+                    </div>
+                    <div class="modal-body">
+                        <form  class="form-inline" method="POST" enctype="multipart/form-data">
+                            <input value = "1" type="hidden" name="my_id">
+                            {{ form.hidden_tag() }} {{ form.file(class_="col-lg-10") }}
+                            <input type="submit" class="col-lg-2 btn btn-primary" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal2" data-whatever="@mdo">Enviar Convite</button>
+
+        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Enviar Convite</h5>
+                        </div>
+                        <div class="modal-body">
+                                <form class="form-inline" method="POST" enctype="multipart/form-data"> 
+                                    <input value = "2" type="hidden" name="my_id">
+                                    {{ form.hidden_tag() }}
+                                    
+                                    <div class="form-row align-items-right">
+                                       
+                                        <div class="col-lg-2 my-1">
+                                            <input type="submit" class="btn btn-success" value="Enviar Convites" />
+                                        </div>
+                                    </div>
+                                </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+     
+</div>
+<script>
+    var b = "{{ obj }}";  
+</script>
+<script src="{{ url_for('static', filename='js/list_script.js')}}"></script>
+{% if alert is not none %}
+        {% if alert %}    
+            {% set alert = none %}
+            {% if my_id == "1" %}
+                <script> swal( {title: 'Lista Carregada !!!', text: ``, icon: 'success', buttons: [false] , timer: 2000});   </script>
+            {% endif %}
+            {% if my_id == "2" %}
+                <script> swal( {title: 'Convites Enviados !!!', text: ``, icon: 'success', buttons: [false] , timer: 2000});   </script>
+            {% endif %}
+            {% if my_id == "3" %}
+                <script>   swal( {title: 'Lista Apagada !!!', text: ``, icon: 'success', buttons: [false] , timer: 2000});   </script>
+            {% endif %}
+            <script> 
+                window.location.href = 'http://localhost:5000/upload';            
+            </script>
+        {% else %}
+            <script> swal( {title: 'Erro ao enviar !!!', text: ``, icon: 'warning', buttons: [false] , timer: 4000});</script>
+        {% endif %}
+{%endif%}
+
+{% endblock conteudo %}
